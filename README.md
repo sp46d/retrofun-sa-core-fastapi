@@ -1,1 +1,5 @@
-# retrofun-sa-core-fastapi
+# Retrofun with SQLAlchemy Core
+
+The Retrofun example from [SQLAlchemy 2 In Practice](https://amzn.to/3S0diwc) by Miguel Grinberg is all rewritten with SQLAlchemy Core, instead of using SQLAlchemy ORM. Why SQLAlchemy Core? Because it's fast and it allows me to access SQL queries directly. While SQLAlchemy ORM offers one of the best experiences as to developing and manipulating databases, I sometimes find it bulky and frustrating that I can only interact with objects when I should directly write SQL queries to solve the problem.
+
+With all being said, getting proficient in writing SQLAlchemy Core, as well as SQLAlchemy ORM, can be valuable for anyone who wants to use SQLAlchemy to maintain databases. This repository is my attempt to familiarize myself with SQLAlchemy Core API. As I make progress on this project, I will be adding basic CRUD features down the road, so that it can not only imports data from existing files, but it can also accept various HTTP requests (eg. GET, POST, PUT, DELETE) to reproduce the functions of typical E-commerce webpages.
